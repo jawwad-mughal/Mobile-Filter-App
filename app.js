@@ -690,7 +690,8 @@ var mobiles = {
 
      mobileModelName = selectModel.value;
 
-     mobileDetails = Object.values(mobiles[currentBrand][mobileModelName]) 
+     mobileDetails = Object.values(mobiles[currentBrand][mobileModelName])
+    //  console.log(mobileDetails)
   }
  
   // Create mobile model detail list 
@@ -868,7 +869,7 @@ var mobiles = {
       
 
       let expandableStorage = `expandableStorage: ${value[14]}`
-      console.log(expandableStorage)
+     
 
       let image = value[15]
       
@@ -898,8 +899,6 @@ var mobiles = {
     
     let appendChild = Object.values(para)
     
-    let appendChildLenght = appendChild.length
-    console.log(appendChildLenght)
     
     
     
